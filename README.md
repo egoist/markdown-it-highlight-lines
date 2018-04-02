@@ -21,7 +21,7 @@ md.use(highlightLines)
 md.render(markdownString)
 ```
 
-For example, highline line 1, 2, and line 4 to 5:
+For example, highlight line 1, 2, and line 4 to 5:
 
 ````markdown
 ```js{1,2,4-5}
