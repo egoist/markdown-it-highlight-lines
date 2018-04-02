@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main 1`] = `
+"<pre><code class=\\"language-js\\">const a = b
+</code></pre>
+<pre class=\\"language-js\\"><code class=\\"language-js\\"><span class=\\"highlighted-line\\">const a = b</span></code></pre><pre class=\\"language-js\\"><code class=\\"language-js\\">const a = b
+<span class=\\"highlighted-line\\">const c = d</span><span class=\\"highlighted-line\\">const d = e</span></code></pre>"
+`;

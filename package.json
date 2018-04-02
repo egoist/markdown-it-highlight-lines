@@ -1,0 +1,37 @@
+{
+  "name": "markdown-it-highlight-lines",
+  "version": "0.0.0",
+  "description": "Highlight specific lines in code blocks.",
+  "repository": {
+    "url": "egoist/markdown-it-highlight-lines",
+    "type": "git"
+  },
+  "main": "dist/markdown-it-highlight-lines.cjs.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "npm run lint && jest",
+    "lint": "xo",
+    "build": "bili src/index.js --js buble",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.3",
+    "bili": "^3.0.15",
+    "eslint-config-rem": "^3.0.0",
+    "jest": "^22.4.3",
+    "markdown-it": "^8.4.1",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem",
+    "envs": ["jest"]
+  }
+}
