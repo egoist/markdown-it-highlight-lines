@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-highlight-lines",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Highlight specific lines in code blocks.",
   "repository": {
     "url": "egoist/markdown-it-highlight-lines",
@@ -32,6 +32,8 @@
   },
   "xo": {
     "extends": "rem",
-    "envs": ["jest"]
+    "envs": [
+      "jest"
+    ]
   }
 }
