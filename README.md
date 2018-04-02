@@ -28,7 +28,7 @@ For example, highlight line 1, 2, and line 4 to 5:
 function foo() {
   return bar()
     .then(res => {
-      returnres.doSomething()
+      return res.doSomething()
     })
 }
 ```
