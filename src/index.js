@@ -13,7 +13,7 @@ export default md => {
     const lineNumbers = RE.exec(token.info)[1]
       .split(',')
       .map(v => v.split('-').map(v => parseInt(v, 10)))
-    const langName = token.info.replace(RE, '')
+    const langName = token.info.replace(RE, '').trim()
 
     const code = options.highlight ?
       options.highlight(token.content, langName) :

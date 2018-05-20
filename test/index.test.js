@@ -13,7 +13,7 @@ const a = b
 const a = b
 \`\`\`
 
-\`\`\`js{2-3}
+\`\`\` js {2-3}
 const a = b
 const c = d
 const d = e
