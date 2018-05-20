@@ -24,7 +24,7 @@ md.render(markdownString)
 For example, highlight line 1, 2, and line 4 to 5:
 
 ````markdown
-```js{1,2,4-5}
+```js {1,2,4-5}
 function foo() {
   return bar()
     .then(res => {
@@ -33,6 +33,8 @@ function foo() {
 }
 ```
 ````
+
+_Note that the spaces between language name and opening curly bracket are optional._
 
 Each highlighted line will be wrapped in `<span class="highlighted-line"></span>`, you can apply some custom styles to this element, recommended:
 
