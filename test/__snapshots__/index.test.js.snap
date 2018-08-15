@@ -6,3 +6,11 @@ exports[`main 1`] = `
 <pre class=\\"language-js\\"><code class=\\"language-js\\"><span class=\\"highlighted-line\\">const a = b</span></code></pre><pre class=\\"language-js\\"><code class=\\"language-js\\">const a = b
 <span class=\\"highlighted-line\\">const c = d</span><span class=\\"highlighted-line\\">const d = e</span></code></pre>"
 `;
+
+exports[`respect custom <pre> 1`] = `
+"<pre class=\\"language-js\\"><code class=\\"language-js\\">const a = b
+</code></pre>
+<pre class=\\"language-js\\"><code class=\\"language-js\\"><span class=\\"highlighted-line\\"><pre class=\\"language-js\\"><code class=\\"language-js\\">const a = b</span></code></pre></code></pre><pre class=\\"language-js\\"><code class=\\"language-js\\">const a = b
+<span class=\\"highlighted-line\\">const c = d</span><span class=\\"highlighted-line\\">const d = e</span></code></pre>
+"
+`;
