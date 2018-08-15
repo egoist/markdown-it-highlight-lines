@@ -44,6 +44,10 @@ export default md => {
         highlightedCode += `${split.code}\n`
       }
     })
+    // If custom highlighter wraps code with starting <pre..., don't wrap code
+    if (highlightedCode.startsWith('<pre')) {
+      return highlightedCode
+    }
     const tmpToken = {
       attrs: [['class', langName ? `language-${langName}` : '']]
     }
