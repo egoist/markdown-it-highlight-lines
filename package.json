@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-highlight-lines",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Highlight specific lines in code blocks.",
   "repository": {
     "url": "egoist/markdown-it-highlight-lines",
