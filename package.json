@@ -27,7 +27,7 @@
     "bili": "^3.0.15",
     "eslint-config-rem": "^3.0.0",
     "jest": "^22.4.3",
-    "markdown-it": "^8.4.1",
+    "markdown-it": "^12.3.2",
     "xo": "^0.18.0"
   },
   "xo": {
